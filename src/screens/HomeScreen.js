@@ -9,9 +9,9 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <View style={{flex: 1}}>
-      <View style={{marginTop: 50}}>
+      <View style={{marginTop: 1}}>
       <BannerAd
-      unitId={"ca-app-pub-6964741882714582/6415074694"}
+      unitId={"ca-app-pub-6964741882714582/6185411345"}
       size={BannerAdSize.FULL_BANNER}
       requestOptions={{
         requestNonPersonalizedAdsOnly: true,
@@ -39,7 +39,7 @@ const HomeScreen = ({navigation}) => {
       size={BannerAdSize.FULL_BANNER}
       requestOptions={{
         requestNonPersonalizedAdsOnly: true,
-      }}
+      }} 
       
      />
      </View>
