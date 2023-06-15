@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ads-demo",
+    "slug": "ads-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chris.clarkzzz.ads-demo",
+      "requireFullScreen": true,
+      "buildNumber": "1.0.0"
+     },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.chris.clarkzzz.adsdemo"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+     },
+     "description": ""
+    },
+    "react-native-google-mobile-ads": {
+     "android_app_id": "ca-app-pub-6964741882714582~6415074694",
+     "ios_app_id": "ca-app-pub-6964741882714582~6415074694"
+    }
+}

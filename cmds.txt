@@ -1,0 +1,11 @@
+npx expo prebuild
+npx expo run:ios
+
+
+Clear Build Director
+
+rm -rf ios/build
+
+Or this will also kill he bundler
+
+rm -rf ios/build/; kill $(lsof -t -i:8081); react-native run-ios/
